@@ -39,6 +39,8 @@
             this.lblMonths = new System.Windows.Forms.Label();
             this.txtYears = new System.Windows.Forms.TextBox();
             this.txtMonths = new System.Windows.Forms.TextBox();
+            this.lblJewishDate = new System.Windows.Forms.Label();
+            this.txtJewishDate = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtDate
@@ -136,16 +138,36 @@
             this.txtMonths.Size = new System.Drawing.Size(46, 20);
             this.txtMonths.TabIndex = 7;
             // 
+            // lblJewishDate
+            // 
+            this.lblJewishDate.AutoSize = true;
+            this.lblJewishDate.Location = new System.Drawing.Point(53, 156);
+            this.lblJewishDate.Name = "lblJewishDate";
+            this.lblJewishDate.Size = new System.Drawing.Size(68, 13);
+            this.lblJewishDate.TabIndex = 4;
+            this.lblJewishDate.Text = "Jewish Date:";
+            // 
+            // txtJewishDate
+            // 
+            this.txtJewishDate.Location = new System.Drawing.Point(120, 153);
+            this.txtJewishDate.Name = "txtJewishDate";
+            this.txtJewishDate.ReadOnly = true;
+            this.txtJewishDate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtJewishDate.Size = new System.Drawing.Size(113, 20);
+            this.txtJewishDate.TabIndex = 7;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(279, 139);
+            this.ClientSize = new System.Drawing.Size(279, 178);
             this.Controls.Add(this.txtMonths);
             this.Controls.Add(this.txtDays);
+            this.Controls.Add(this.txtJewishDate);
             this.Controls.Add(this.txtYears);
             this.Controls.Add(this.txtWeeks);
             this.Controls.Add(this.btnOpenCalendar);
+            this.Controls.Add(this.lblJewishDate);
             this.Controls.Add(this.lblMonths);
             this.Controls.Add(this.lblDays);
             this.Controls.Add(this.lblYears);
@@ -172,6 +194,8 @@
         private System.Windows.Forms.Label lblMonths;
         private System.Windows.Forms.TextBox txtYears;
         private System.Windows.Forms.TextBox txtMonths;
+        private System.Windows.Forms.Label lblJewishDate;
+        private System.Windows.Forms.TextBox txtJewishDate;
 
     }
 }

@@ -49,5 +49,10 @@ namespace DateCalculator
             int daysPassed = GetDaysPassedSince();
             return daysPassed / 365;
         }
+
+        public string GetJewishDate()
+        {
+            return _baseDate.ToJewishDateString("dd MMM yyyy");
+        }
     }
 }

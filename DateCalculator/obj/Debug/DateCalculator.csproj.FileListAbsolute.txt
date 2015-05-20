@@ -6,3 +6,4 @@ c:\users\avraham.kahana\documents\visual studio 2013\Projects\DateCalculator\Dat
 c:\users\avraham.kahana\documents\visual studio 2013\Projects\DateCalculator\DateCalculator\obj\Debug\DateCalculator.csproj.GenerateResource.Cache
 c:\users\avraham.kahana\documents\visual studio 2013\Projects\DateCalculator\DateCalculator\obj\Debug\DateCalculator.exe
 c:\users\avraham.kahana\documents\visual studio 2013\Projects\DateCalculator\DateCalculator\obj\Debug\DateCalculator.pdb
+C:\Users\avraham.kahana\Documents\Visual Studio 2013\Projects\DateCalculator\DateCalculator\obj\Debug\DateCalculator.csprojResolveAssemblyReference.cache

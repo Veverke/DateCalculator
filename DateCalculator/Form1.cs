@@ -55,6 +55,7 @@ namespace DateCalculator
             txtDays.Text = dateCalculator.GetDaysPassedSince().ToString();
                         txtMonths.Text = dateCalculator.GetMonthsPassedSince().ToString();
             txtYears.Text = dateCalculator.GetYearsPassedSince().ToString();
+            txtJewishDate.Text = dateCalculator.GetJewishDate();
         }
     }
 }

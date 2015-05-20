@@ -1,0 +1,8 @@
+c:\users\avraham.kahana\documents\visual studio 2013\Projects\DateCalculator\DateCalculator\bin\Debug\DateCalculator.exe.config
+c:\users\avraham.kahana\documents\visual studio 2013\Projects\DateCalculator\DateCalculator\bin\Debug\DateCalculator.exe
+c:\users\avraham.kahana\documents\visual studio 2013\Projects\DateCalculator\DateCalculator\bin\Debug\DateCalculator.pdb
+c:\users\avraham.kahana\documents\visual studio 2013\Projects\DateCalculator\DateCalculator\obj\Debug\DateCalculator.frmMain.resources
+c:\users\avraham.kahana\documents\visual studio 2013\Projects\DateCalculator\DateCalculator\obj\Debug\DateCalculator.Properties.Resources.resources
+c:\users\avraham.kahana\documents\visual studio 2013\Projects\DateCalculator\DateCalculator\obj\Debug\DateCalculator.csproj.GenerateResource.Cache
+c:\users\avraham.kahana\documents\visual studio 2013\Projects\DateCalculator\DateCalculator\obj\Debug\DateCalculator.exe
+c:\users\avraham.kahana\documents\visual studio 2013\Projects\DateCalculator\DateCalculator\obj\Debug\DateCalculator.pdb

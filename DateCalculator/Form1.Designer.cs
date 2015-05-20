@@ -49,6 +49,7 @@
             this.txtDate.Name = "txtDate";
             this.txtDate.Size = new System.Drawing.Size(100, 20);
             this.txtDate.TabIndex = 1;
+            this.txtDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtDate.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtDate_MouseClick);
             // 
             // lblPickDate
@@ -86,6 +87,7 @@
             this.txtWeeks.ReadOnly = true;
             this.txtWeeks.Size = new System.Drawing.Size(46, 20);
             this.txtWeeks.TabIndex = 7;
+            this.txtWeeks.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblDays
             // 
@@ -103,6 +105,7 @@
             this.txtDays.ReadOnly = true;
             this.txtDays.Size = new System.Drawing.Size(46, 20);
             this.txtDays.TabIndex = 7;
+            this.txtDays.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblYears
             // 
@@ -129,6 +132,7 @@
             this.txtYears.ReadOnly = true;
             this.txtYears.Size = new System.Drawing.Size(46, 20);
             this.txtYears.TabIndex = 7;
+            this.txtYears.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtMonths
             // 
@@ -137,6 +141,7 @@
             this.txtMonths.ReadOnly = true;
             this.txtMonths.Size = new System.Drawing.Size(46, 20);
             this.txtMonths.TabIndex = 7;
+            this.txtMonths.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblJewishDate
             // 
@@ -155,6 +160,7 @@
             this.txtJewishDate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtJewishDate.Size = new System.Drawing.Size(113, 20);
             this.txtJewishDate.TabIndex = 7;
+            this.txtJewishDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frmMain
             // 

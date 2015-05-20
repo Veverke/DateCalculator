@@ -12,12 +12,9 @@ namespace DateCalculator
 {
     public partial class frmMain : Form
     {
-        DateCalculator _dateCalculator;
-
         public frmMain()
         {
             InitializeComponent();
-            _dateCalculator = new DateCalculator();
         }
 
         private void txtDate_MouseClick(object sender, MouseEventArgs e)
@@ -53,7 +50,11 @@ namespace DateCalculator
                 (parentForm as Form).Close();
             }
 
-            txtWeeksPassed.Text = _dateCalculator.GetWeeksPassedSince(e.Start).ToString();
+            DateCalculator dateCalculator = new DateCalculator(e.Start);
+            txtWeeks.Text = dateCalculator.GetWeeksPassedSince().ToString();
+            txtDays.Text = dateCalculator.GetDaysPassedSince().ToString();
+                        txtMonths.Text = dateCalculator.GetMonthsPassedSince().ToString();
+            txtYears.Text = dateCalculator.GetYearsPassedSince().ToString();
         }
     }
 }

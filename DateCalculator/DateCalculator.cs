@@ -9,33 +9,45 @@ namespace DateCalculator
     public class DateCalculator
     {
         private DateTime _baseDate;
-
-        public DateCalculator()
-        {
-        }
+        private TimeSpan _dateDifference;
 
         public DateCalculator(DateTime baseDate)
         {
             _baseDate = baseDate;
+            _dateDifference = DateTime.Now.Subtract(baseDate);
         }
 
-        public int GetWeeksPassedSince(DateTime? baseDate = null, DateTime? startingDate = null)
+        public int GetWeeksPassedSince()
         {
-            if (!baseDate.HasValue)
-            {
-                baseDate = baseDate.HasValue ? baseDate.Value : _baseDate;
-            }
-
-            if (!startingDate.HasValue)
-            {
-                startingDate = DateTime.Now;
-            }
-
-            //DayOfWeek baseDayOfWeek = date.DayOfWeek;
-            TimeSpan dateDifference = startingDate.Value.Subtract(baseDate.Value);
-            int daysPassed = dateDifference.Days;
-
+            int daysPassed = GetDaysPassedSince();
             return daysPassed / 7;
+        }
+
+        public int GetDaysPassedSince()
+        {
+            return _dateDifference.Days;
+        }
+
+        public int GetSecondsPassedSince()
+        {
+            return (int)Math.Floor(_dateDifference.TotalSeconds);
+        }
+
+        public int GetHoursPassedSince()
+        {
+            return (int)Math.Floor(_dateDifference.TotalHours);
+        }
+
+        public int GetMonthsPassedSince()
+        {
+            int daysPassed = GetDaysPassedSince();
+            return daysPassed / 30;
+        }
+
+        public int GetYearsPassedSince()
+        {
+            int daysPassed = GetDaysPassedSince();
+            return daysPassed / 365;
         }
     }
 }
